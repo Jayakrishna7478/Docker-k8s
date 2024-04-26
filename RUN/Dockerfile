@@ -1,2 +1,2 @@
-FROM alpine
-RUN apt-get install -y curl nginx 
+FROM centos
+RUN apt-get install -y curl nginx
