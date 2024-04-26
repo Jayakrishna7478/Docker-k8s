@@ -1,3 +1,3 @@
 FROM alpine
 #RUN apt-get update
-RUN apt-get install -y curl
+RUN yum install git -y
