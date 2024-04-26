@@ -1,3 +1,2 @@
 FROM alpine
-#RUN apt-get update
-RUN yum install git -y
+RUN apt-get install -y curl nginx 
