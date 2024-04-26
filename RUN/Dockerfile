@@ -1,2 +1,2 @@
 FROM centos
-RUN apt-get install -y curl nginx
+RUN yum install nginx -y
